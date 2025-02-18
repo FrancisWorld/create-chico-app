@@ -1,0 +1,41 @@
+{
+  "name": "create-chico-app",
+  "version": "2.0.0",
+  "description": "CLI para criar projetos Next.js personalizados",
+  "main": "./bin/cli.js",
+  "type": "module",
+  "bin": {
+    "create-chico-app": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisWorld/create-chico-app.git"
+  },
+  "keywords": [
+    "cli",
+    "nextjs",
+    "template",
+    "create-app",
+    "boilerplate",
+    "bun"
+  ],
+  "author": "Francis",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "ora": "^7.0.1",
+    "inquirer": "^9.2.12",
+    "degit": "^2.8.4",
+    "fs-extra": "^11.2.0"
+  },
+  "files": [
+    "bin"
+  ]
+} 
